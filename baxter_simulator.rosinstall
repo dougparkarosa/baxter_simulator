@@ -1,6 +1,6 @@
 - git:
     local-name: baxter_simulator
-    uri: https://github.com/RethinkRobotics/baxter_simulator.git
+    uri: https://github.com/dougparkarosa/baxter_simulator.git
     version: master
 - git:
     local-name: baxter
