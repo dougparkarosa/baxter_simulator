@@ -35,8 +35,9 @@
 #include <QtGui>
 #include <QMessageBox>
 #include <iostream>
+#ifndef Q_MOC_RUN
 #include <baxter_sim_io/baxter_io.hpp>
-
+#endif // Q_MOC_RUN
 namespace baxter_sim_io {
 
 using namespace Qt;

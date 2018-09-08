@@ -34,7 +34,9 @@
 #ifndef baxter_sim_io_QNODE_HPP_
 #define baxter_sim_io_QNODE_HPP_
 
+#ifndef Q_MOC_RUN
 #include <ros/ros.h>
+#endif // Q_MOC_RUN
 #include <string>
 #include <QThread>
 #include <QStringListModel>

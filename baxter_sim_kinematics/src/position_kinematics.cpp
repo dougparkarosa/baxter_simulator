@@ -32,8 +32,10 @@
  *  \desc   Node to wrap/unwrap the messages and calculate the kinematics for the Simulated Baxter
  */
 
+#ifndef Q_MOC_RUN
 #include <baxter_sim_kinematics/position_kinematics.h>
 #include <signal.h>
+#endif // Q_MOC_RUN
 
 namespace kinematics {
 
