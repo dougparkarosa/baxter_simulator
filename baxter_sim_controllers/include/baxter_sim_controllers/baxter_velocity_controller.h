@@ -45,8 +45,9 @@
 
 #include <urdf/model.h>
 #include <control_toolbox/pid.h>
-#include <boost/scoped_ptr.hpp>
-#include <boost/thread/condition.hpp>
+//#include <boost/scoped_ptr.hpp>
+//#include <boost/thread/condition.hpp>
+#include <memory>
 #include <hardware_interface/joint_command_interface.h>
 #include <controller_interface/controller.h>
 #include <realtime_tools/realtime_buffer.h>
@@ -98,7 +99,7 @@ namespace baxter_sim_controllers
 
     // Create an effort-based joint velocity controller for every joint
     std::vector< 
-      boost::shared_ptr<
+      std::shared_ptr<
         effort_controllers::JointVelocityController> > velocity_controllers_;    
 
   };
